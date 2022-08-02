@@ -74,4 +74,15 @@ fun fibonacci(int n)
     } 
 }
 
+#Recusive
+
+fun fubonacciRecursion(n)
+{
+    if (n == 0) or (n == 1)
+    {
+        return n
+    }
+
+    return fubonacciRecursion(n-1) + n
+}
 
