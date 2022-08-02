@@ -1,0 +1,13 @@
+4. Sum of even numbers 
+
+fun sumOfEvenNumbers(Array nums)
+{
+    sum=0
+    for (int i = 0; i<nums.length; i++ ):
+        if nums[i]%2==0
+        {
+            sum = sum + nums[i]
+        }
+    
+    return sum
+}

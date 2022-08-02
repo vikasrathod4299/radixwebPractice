@@ -1,0 +1,29 @@
+# Itrative approche
+fun fibonacci(int n)
+{
+    int a = 0
+    int b = 1      
+    int temp = 0
+    
+    c=0
+    while (c<n)
+    {
+        temp=a+b
+        print(temp)
+        a=b
+        b=temp
+        c++
+    } 
+}
+
+#Recusive approche
+fun fubonacciRecursion(n)
+{
+    if (n == 0) or (n == 1)
+    {
+        return n
+    }
+
+    return fubonacciRecursion(n-1) + n
+}
+

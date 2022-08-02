@@ -1,0 +1,9 @@
+1. Add two numbers
+
+fun add two_nums(int a, intb)
+{
+    int a = 10
+    int b = 15
+    int c = a+b
+    return c
+}

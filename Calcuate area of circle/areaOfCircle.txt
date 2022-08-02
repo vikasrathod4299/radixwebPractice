@@ -1,0 +1,12 @@
+2. Calculate area of circle.
+
+fun calculateAreaOfCircle(ind radius):
+{
+    PI = 3.14
+    r = radius
+
+    float area = PI * r * r
+    float circumferences = 2 * PI * r
+
+    return area, circumferences
+}
