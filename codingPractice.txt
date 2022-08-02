@@ -69,8 +69,8 @@ fun fibonacci(int n)
     {
         temp=a+b
         print(temp)
-        b=temp
         a=b
+        b=temp
         c++
     } 
 }
