@@ -41,3 +41,37 @@ fun auth(String userId,String password)
     }
 }
 
+4. Sum of even numbers 
+
+fun sumOfEvenNumbers(Array nums)
+{
+    sum=0
+    for (int i = 0; i<nums.length; i++ ):
+        if nums[i]%2==0
+        {
+            sum = sum + nums[i]
+        }
+    
+    return sum
+}
+
+5. Fibonacci series
+
+# Itratively
+fun fibonacci(int n)
+{
+    int a = 0
+    int b = 1      
+    int temp = 0
+    
+    c=0
+    while (c<n)
+    {
+        temp=a+b
+        print(temp)
+        b=temp
+        a=b
+    } 
+}
+
+
