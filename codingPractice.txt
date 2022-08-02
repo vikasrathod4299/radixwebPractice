@@ -22,3 +22,22 @@ fun calculateAreaOfCircle(ind radius):
 }
 
 
+3. Varify User with userId and password
+
+fun auth(String userId,String password)
+{
+    db_userId = "vikasrathod007"
+    db_password = "12345" 
+    if (userId == db_userId){
+        if (db_password == password){
+            return "access granted"
+        }
+        else{
+            return "Incorrect password"
+        }
+    }
+    else{
+        return "User did not exist"
+    }
+}
+
