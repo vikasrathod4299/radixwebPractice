@@ -71,6 +71,7 @@ fun fibonacci(int n)
         print(temp)
         b=temp
         a=b
+        c++
     } 
 }
 
